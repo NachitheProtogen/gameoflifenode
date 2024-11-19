@@ -45,9 +45,9 @@ function display() {
         let rowString = "";
         for (let j = 0; j < colms; j++) {
             if (cells[i * colms + j].alive) {
-                rowString += "■";
+                rowString += "■ ";
             } else {
-                rowString += "□";
+                rowString += "□ ";
             }
         }
         console.log(rowString);
